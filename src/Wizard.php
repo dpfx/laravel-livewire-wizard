@@ -140,7 +140,7 @@ abstract class Wizard extends Component
 
     public function render()
     {
-        return view('laravel-livewire-wizards::livewire.layout');
+        return view('livewire-wizards::livewire.layout');
     }
 
     public function prepareSteps(): void

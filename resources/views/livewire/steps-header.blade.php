@@ -4,7 +4,7 @@
     </div>
     <div class="flex my-4">
         @foreach($this->instances as $key => $data)
-            @include('laravel-livewire-wizards::livewire.step-header')
+            @include('livewire-wizards::livewire.step-header')
         @endforeach
     </div>
 </div>
