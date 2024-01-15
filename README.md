@@ -1,2 +1,2 @@
-# laravel-livewire-wizard
+# laravel-livewire-wizards
 A livewire wizard for laravel.
