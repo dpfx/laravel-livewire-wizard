@@ -1,0 +1,12 @@
+{
+    "name": "dpfx/laravel-livewire-wizard",
+    "description": "A livewire wizard for laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dpfx\\Wizard\\": "src/"
+        }
+    },
+    "require": {}
+}
