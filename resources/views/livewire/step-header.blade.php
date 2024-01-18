@@ -22,15 +22,15 @@
         @endif
 
         <div class="grid place-items-center">
-            <x-button.circle
-                :positive="$stepIsGreaterOrEqualThan && !$isFailedStep"
-                :negative="$isFailedStep"
-                wire:click="setStep({{ $data['position'] }})"
-                icon="{{ $data['icon'] }}"
-            />
+            <div class="text-lg" wire:click="setStep({{ $data['position'] }})">
+                @if ($stepIsGreaterOrEqualThan && !$isFailedStep)
+                    <i class="fa-solid fa-circle text-green-300"></i>
+                @else
+                    <i class="fa-regular fa-circle"></i>
+                @endif
+            </div>
         </div>
     </div>
-    {{-- <div class="text-xs text-center md:text-base">{{ $data['title'] }}</div> --}}
 
     <div @class([
         'text-xs',
