@@ -8,7 +8,7 @@
         "multiple-steps",
         "forms"
     ],
-    "homepage": "https://github.com/vildanbina/livewire-wizard",
+    "homepage": "https://github.com/dpfx/laravel-livewire-wizards",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -19,8 +19,7 @@
     "require": {
         "php": "^8.1",
         "livewire/livewire": "^3.0",
-        "spatie/laravel-package-tools": "^1.9",
-        "wireui/wireui": "^1.18"
+        "spatie/laravel-package-tools": "^1.9"
     },
     "extra": {
         "laravel": {

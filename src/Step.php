@@ -148,14 +148,4 @@ abstract class Step extends Component
     {
         $this->dispatch($event, $this->uuid, ...$params)->to($this->wizard);
     }
-
-    // public static function path()
-    // {
-    //     $class = static::class;
-    //     $path = Str::after($class, 'App\Livewire\\');
-    //     $path = Str::kebab($path);
-    //     $path = Str::replace('\-', '.', $path);
-
-    //     return $path;
-    // }
 }
